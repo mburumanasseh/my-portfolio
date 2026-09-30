@@ -12,6 +12,7 @@ function Skills() {
     'CSS',
     'Git',
     'GitHub',
+    'FastAPI'
   ]
 
   return (
