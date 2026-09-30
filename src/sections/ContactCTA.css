@@ -1,0 +1,75 @@
+.contact {
+  padding: 6rem 2rem;
+}
+
+.contact__container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact__content {
+  max-width: 750px;
+}
+
+.contact__eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.contact__title {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
+}
+
+.contact__description {
+  max-width: 650px;
+  margin: 1.5rem 0 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contact__button {
+  display: inline-block;
+  padding: 0.85rem 1.5rem;
+  border-radius: 0.5rem;
+
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact__button--primary {
+  background: #111;
+  color: #fff;
+}
+
+.contact__button--secondary {
+  border: 1px solid #111;
+  color: #111;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 4rem 1.25rem;
+  }
+
+  .contact__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact__button {
+    text-align: center;
+  }
+}
