@@ -1,0 +1,90 @@
+.projects {
+  padding: 6rem 2rem;
+}
+
+.projects__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects__header {
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+.projects__eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.projects__title {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.15;
+}
+
+.projects__description {
+  margin: 1.25rem 0 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.project-card {
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+}
+
+.project-card__title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.project-card__description {
+  margin: 1rem 0 1.5rem;
+  line-height: 1.7;
+}
+
+.project-card__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-card__technology {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.project-card__links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.project-card__links a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 4rem 1.25rem;
+  }
+
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+}
