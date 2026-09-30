@@ -1,3 +1,4 @@
+import profileImage from '../assets/images/profile.png'
 import './Hero.css'
 
 function Hero() {
@@ -21,14 +22,28 @@ function Hero() {
           </p>
 
           <div className="hero__actions">
-            <a href="#projects" className="hero__button hero__button--primary">
+            <a
+              href="#projects"
+              className="hero__button hero__button--primary"
+            >
               View My Work
             </a>
 
-            <a href="#contact" className="hero__button hero__button--secondary">
+            <a
+              href="#contact"
+              className="hero__button hero__button--secondary"
+            >
               Contact Me
             </a>
           </div>
+        </div>
+
+        <div className="hero__image-wrapper">
+          <img
+            src={profileImage}
+            alt="Mburu Manasseh Mugo"
+            className="hero__image"
+          />
         </div>
       </div>
     </section>

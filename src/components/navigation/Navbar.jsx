@@ -4,10 +4,6 @@ function Navbar() {
   return (
     <header className="navbar">
       <nav className="navbar__container">
-        <a href="/" className="navbar__logo">
-          Manasseh
-        </a>
-
         <ul className="navbar__links">
           <li>
             <a href="#home">Home</a>
@@ -15,6 +11,10 @@ function Navbar() {
 
           <li>
             <a href="#about">About</a>
+          </li>
+
+          <li>
+            <a href="#skills">Skills</a>
           </li>
 
           <li>
