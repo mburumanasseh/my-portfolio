@@ -1,0 +1,43 @@
+.about {
+  padding: 6rem 2rem;
+}
+
+.about__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about__content {
+  max-width: 800px;
+}
+
+.about__eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.about__title {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.15;
+}
+
+.about__text {
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.about__text:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 4rem 1.25rem;
+  }
+}
