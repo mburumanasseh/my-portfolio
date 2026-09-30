@@ -12,7 +12,9 @@ function Skills() {
     'CSS',
     'Git',
     'GitHub',
-    'FastAPI'
+    'FastAPI',
+    'PostgreSQL',
+    'Vite'
   ]
 
   return (

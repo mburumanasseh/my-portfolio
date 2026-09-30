@@ -5,7 +5,7 @@ const projects = [
     description:
       'An e-commerce platform designed to help users discover, compare, and purchase products through a user-friendly shopping experience.',
     technologies: ['React', 'JavaScript', 'Redux', 'Python', 'Flask', 'PostgreSQL'],
-    github: 'https://github.com/olivermooz-117/Blue-Cart-frontend',
+    github: 'https://github.com/olivermooz-117/Blue-Cart-frontend-',
     live: 'https://blue-cart-frontend.vercel.app/',
   },
   {
