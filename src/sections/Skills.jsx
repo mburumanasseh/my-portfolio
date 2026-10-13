@@ -14,7 +14,8 @@ function Skills() {
     'GitHub',
     'FastAPI',
     'PostgreSQL',
-    'Vite'
+    'Vite',
+    'NEXT.js'
   ]
 
   return (

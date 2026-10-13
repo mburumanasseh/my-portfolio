@@ -15,7 +15,7 @@ const projects = [
       'A honey e-commerce platform focused on showcasing Kenyan honey products, managing inventory, processing orders, and supporting online payments.',
     technologies: ['React', 'FastAPI', 'PostgreSQL', 'Python'],
     github: 'https://github.com/mburumanasseh/honey-shop',
-    live: 'https://frontend-snowy-two-50.vercel.app/',
+    live: 'https://mercygold.co.ke',
   },
   {
     id: 3,
