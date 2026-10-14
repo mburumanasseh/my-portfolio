@@ -3,19 +3,21 @@ import './Skills.css'
 function Skills() {
   const skills = [
     'Python',
-    'JavaScript',
-    'React',
-    'Flask',
-    'SQL',
-    'MySQL',
-    'HTML',
-    'CSS',
-    'Git',
-    'GitHub',
-    'FastAPI',
-    'PostgreSQL',
-    'Vite',
-    'NEXT.js'
+'JavaScript',
+'React',
+'Next.js',
+'NestJS',
+'Flask',
+'FastAPI',
+'SQL',
+'MySQL',
+'PostgreSQL',
+'HTML',
+'CSS',
+'Git',
+'GitHub',
+'Docker',
+'GitHub Actions'
   ]
 
   return (
