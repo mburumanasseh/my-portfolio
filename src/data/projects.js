@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     title: 'Mercy Gold',
     description:
-      'A honey e-commerce platform focused on showcasing Kenyan honey products, managing inventory, processing orders, and supporting online payments.',
+      'A full-stack agricultural marketplace connecting farmers with customers, showcasing a diverse range of farm products—including honey, milk, eggs, and fresh produce—while supporting product management, inventory tracking, order processing, and secure online transactions.',
     technologies: ['React', 'FastAPI', 'PostgreSQL', 'Python'],
     github: 'https://github.com/mburumanasseh/honey-shop',
     live: 'https://mercygold.co.ke',
@@ -28,12 +28,12 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Personal Portfolio',
+    title: 'Farm Track',
     description:
       'A personal developer portfolio showcasing my skills, projects, experience, and journey as a software engineer.',
     technologies: ['React', 'JavaScript', 'CSS', 'Vite'],
-    github: 'https://github.com/mburumanasseh/my-portfolio',
-    live: 'https://my-portfolio-psi-ochre-40.vercel.app/',
+    github: 'https://github.com/kirukufaith5-collab/Farm_track_app_faith.git',
+    live: 'https://farm-track-app-faith.vercel.app/',
   },
 ]
 
