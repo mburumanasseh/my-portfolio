@@ -30,7 +30,7 @@ const projects = [
     id: 4,
     title: 'Farm Track',
     description:
-      'A personal developer portfolio showcasing my skills, projects, experience, and journey as a software engineer.',
+      'FarmTrack is a web app where farmers and field officers map farm parcels on a satellite map, save crop and ownership details, and store them securely in a database with login accounts.',
     technologies: ['React', 'JavaScript', 'CSS', 'Vite'],
     github: 'https://github.com/kirukufaith5-collab/Farm_track_app_faith.git',
     live: 'https://farm-track-app-faith.vercel.app/',
